@@ -1,3 +1,7 @@
+$(document).ready(function(){
+  createPad(45);
+});
+
 
 function = createPad(x){
   for (var rows = 0; rows < x; rows++){
@@ -12,9 +16,3 @@ function = createPad(x){
 function = clearPad (){
   $('.grid').remove();
 };
-
-function = newPad(){
-  var y = prompt("Choose your pixel size:")
-  clearPad();
-  createPad();
-}
