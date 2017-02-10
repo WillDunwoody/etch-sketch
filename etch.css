@@ -4,6 +4,18 @@ body {
   background-color: #2875ef;
 }
 
+.input {
+  position: relative;
+  height: 100px;
+  width: 600px;
+  text-align: center;
+  display: block;
+  font-size: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: yellow;
+}
+
 #head {
   text-align: center;
   display: block;
@@ -16,6 +28,8 @@ body {
   position: relative;
   height: 600px;
   width: 600px;
+  border-width: 10px;
+  border-style: solid;
   margin-left: auto;
   margin-right: auto;
 }
@@ -23,6 +37,5 @@ body {
 .grid {
   margin: 0;
   padding: 0;
-  background-color: #000;
   display:inline-block;
 }
